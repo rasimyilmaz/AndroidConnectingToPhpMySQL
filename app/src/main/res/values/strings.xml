@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Yılmaz Yapı</string>
+    <string name="textView"><u>Yılmaz Yapı Market</u></string>
+    <string name="title_activity_action__list">Giriş Haraketleri</string>
+    <string name="action_settings">Settings</string>
+</resources>

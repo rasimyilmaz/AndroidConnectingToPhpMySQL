@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">1dp</dimen>
+    <dimen name="activity_vertical_margin">1dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Yılmaz Yapı</string>
+    <string name="textView"><u>Yılmaz Yapı Market</u></string>
+    <string name="title_activity_action__list">Giriş Haraketleri</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sunta Vidasi 4*50 PK:500 AD MERİDYEN"
+        android:id="@+id/textView_isim"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="B:"
+        android:id="@+id/textViewB"
+        android:layout_below="@+id/textView_isim"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="11.25 TL"
+        android:id="@+id/textView_Fiyat"
+        android:layout_alignTop="@+id/textViewF"
+        android:layout_toRightOf="@+id/textViewF"
+        android:textColor="#fffcff0c"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="15 ad"
+        android:id="@+id/textView_Miktar"
+        android:layout_alignTop="@+id/textViewM"
+        android:layout_toRightOf="@+id/textViewM"
+        android:textColor="#ff01bc02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="F:"
+        android:id="@+id/textViewF"
+        android:layout_alignTop="@+id/textViewB"
+        android:layout_toRightOf="@+id/textViewB"
+        android:layout_marginLeft="117dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="8691234567890"
+        android:id="@+id/textView_Barkod"
+        android:layout_alignBottom="@+id/textViewB"
+        android:layout_toRightOf="@+id/textViewB" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="M:"
+        android:id="@+id/textViewM"
+        android:singleLine="true"
+        android:layout_alignTop="@+id/textView_Fiyat"
+        android:layout_toRightOf="@+id/textView_Fiyat"
+        android:layout_marginLeft="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/textView_Konum"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/textView_Miktar"
+        android:layout_toRightOf="@+id/textView_Miktar"
+        android:visibility="invisible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/textView_Kod"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/textView_Miktar"
+        android:layout_toRightOf="@+id/textView_Miktar"
+        android:visibility="invisible" />
+</RelativeLayout>

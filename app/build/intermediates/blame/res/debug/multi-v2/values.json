@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQL/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQL/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "5,2,3,4",
+                        "startColumns": "4,0,4,4",
+                        "startOffsets": "242,53,103,167",
+                        "endColumns": "52,44,62,73",
+                        "endOffsets": "290,97,161,236"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "167,220,269,332",
+                        "endColumns": "52,48,62,73",
+                        "endOffsets": "215,264,327,401"
+                    }
+                },
+                {
+                    "source": "/Users/rasimyilmaz/Projects/AndroidConnectingToPhpMySQL/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "90,148",
+                        "endColumns": "56,54",
+                        "endOffsets": "142,198"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,112",
+                        "endColumns": "56,54",
+                        "endOffsets": "107,162"
+                    }
+                }
+            ]
+        }
+    ]
+}
